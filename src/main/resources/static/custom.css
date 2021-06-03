@@ -1,0 +1,14 @@
+a.username {
+    color: #00aced
+}
+
+a.tag {
+    color: #0084b4
+}
+
+body {
+   background-color: black;
+   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fastcompany.net%2Fimage%2Fupload%2Fw_1280%2Cf_auto%2Cq_auto%2Cfl_lossy%2Fwp-cms%2Fuploads%2F2018%2F05%2Fp-1-how-ive-learned-to-get-someone-to-put-down-their-phone-and-listen.jpg&f=1&nofb=1");
+   background-repeat: no-repeat;
+    background-attachment: scroll;
+}

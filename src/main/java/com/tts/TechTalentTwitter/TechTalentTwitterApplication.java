@@ -11,4 +11,3 @@ public class TechTalentTwitterApplication {
 	}
 
 }
- // this is a comment

@@ -21,7 +21,7 @@ public class FollowController {
     public String follow(@PathVariable("username") String username,
                          HttpServletRequest request) {
         User loggedInUser = userService.getLoggedInUser();
-        User userToFollow = userService.findByUsername(username);
+        User userToFollow = userService.findByUserName(username);
         List<User> followers = userToFollow.getFollowers();
         followers.add(loggedInUser);
         userToFollow.setFollowers(followers);
@@ -35,7 +35,7 @@ public class FollowController {
     public String unfollow(@PathVariable("username") String username,
                            HttpServletRequest request) {
         User loggedInUser = userService.getLoggedInUser();
-        User userToUnfollow = userService.findByUsername(username);
+        User userToUnfollow = userService.findByUserName(username);
         List<User> followers = userToUnfollow.getFollowers();
         followers.remove(loggedInUser);
         userToUnfollow.setFollowers(followers);
