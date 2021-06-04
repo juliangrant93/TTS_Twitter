@@ -8,7 +8,15 @@ a.tag {
 
 body {
    background-color: black;
-   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fastcompany.net%2Fimage%2Fupload%2Fw_1280%2Cf_auto%2Cq_auto%2Cfl_lossy%2Fwp-cms%2Fuploads%2F2018%2F05%2Fp-1-how-ive-learned-to-get-someone-to-put-down-their-phone-and-listen.jpg&f=1&nofb=1");
+   background-image: url("/image/SCROLLERS.jpg");
    background-repeat: no-repeat;
     background-attachment: scroll;
+}
+
+.col-md-12 {
+    background-color: rgba(255,255,255,0.8);
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:5px;
 }
